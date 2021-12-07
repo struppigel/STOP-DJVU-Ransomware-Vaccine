@@ -1,4 +1,4 @@
-﻿# STOP-DJVU-Ransomware-Vaccine
+﻿# STOP/DJVU Ransomware Vaccine
  
 Prevents STOP/DJVU Ransomware from encrypting your files.
 
