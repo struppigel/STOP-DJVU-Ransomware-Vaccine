@@ -20,7 +20,7 @@ def nothing_done_msg():
 	ctypes.windll.user32.MessageBoxW(0, "Nothing was changed", "STOP/DJVU Vaccine", 0)
 
 def user_consent():
-	answer = ctypes.windll.user32.MessageBoxW(0, "This will apply a vaccine for STOP\DJVU to your system. Please note that vaccines use harmless parts of the actual malware to make the malware believe it already infected the system. This may cause antivirus products to believe your system is infected by STOP. Continue anyways?", "STOP DJVU Vaccine", 4)
+	answer = ctypes.windll.user32.MessageBoxW(0, "This will apply a vaccine for STOP/DJVU to your system. Please note that vaccines use harmless parts of the actual malware to make the malware believe it already infected the system. This may cause antivirus products to believe your system is infected by STOP. Continue anyways?", "STOP DJVU Vaccine", 4)
 	if answer == IDYES:
 		return True
 	else: 
@@ -34,7 +34,7 @@ def vaccinate():
 		win32api.SetFileAttributes(vaccine_file, win32con.FILE_ATTRIBUTE_HIDDEN)
 		ctypes.windll.user32.MessageBoxW(0, "Your system is vaccinated!", "STOP/DJVU Vaccine", 0)
 	except:
-		ctypes.windll.user32.MessageBoxW(0, "Something went wrong while trying to vaccinate your system", "STOP DJVU Vaccine", 0)
+		ctypes.windll.user32.MessageBoxW(0, "Something went wrong while trying to vaccinate your system", "STOP/DJVU Vaccine", 0)
 	
 if __name__ == "__main__":
 	if already_vaccinated():
