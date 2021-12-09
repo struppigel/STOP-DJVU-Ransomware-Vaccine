@@ -15,4 +15,5 @@ So if you already take the time to apply it, also take the time to backup your f
 **Authors:** Karsten Hahn, John Parol @ GDATA CyberDefense
 
 **Tested versions:** STOP/DJVU Ransomware versions from August 2019 to Dec 2021
+
 If you want a sample to test, you can download one from here: https://bazaar.abuse.ch/sample/e28fad4106120da332e8bbcd7288373ae7035654f54faf52abbfa51b6fdbd996/
