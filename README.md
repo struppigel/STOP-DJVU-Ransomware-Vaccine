@@ -12,6 +12,8 @@ But STOP ransomware will not encrypt files anymore if the system has the vaccine
 The vaccine may not work for future versions of this ransomware.
 So if you already take the time to apply it, also take the time to backup your files!
 
+If the vaccine prevents encryption of your files, you should still reinstall the operating system to get rid of malware. Comorbid malware infections are common with this threat.
+
 **Authors:** Karsten Hahn, John Parol @ GDATA CyberDefense
 
 **Tested versions:** STOP/DJVU Ransomware versions from August 2019 to Dec 2021
